@@ -131,13 +131,6 @@
   .section-head .eyebrow{margin-bottom:14px; display:block;}
   .section-title{font-family:'Playfair Display', serif; font-weight:500; font-size:clamp(28px,4vw,42px); color:var(--ink);}
 
-  .letter p {
-  margin: 0 0 18px;
-}
-
-.letter p:last-of-type {
-  margin-bottom: 0;
-}
   .letter{text-align:center; max-width:560px; margin:0 auto;}
   .letter p{font-family:'Playfair Display', serif; font-size:19px; line-height:1.8; color:var(--ink); font-weight:400;}
   .letter p + p{margin-top:20px;}
@@ -343,7 +336,7 @@
 </div>
 
 <!-- LETTER -->
-<section id="carta">
+<section id="carta" style="padding-left:22px; padding-right:22px;">
   <div class="letter reveal">
     <p>Entre olhares, promessas e um tempo que só Deus sabia que era o certo, escolhemos escrever juntos o capítulo mais importante da nossa história.</p>
     <p>A sua presença é o que torna esse dia completo. Venha viver esse momento com a gente!</p>
@@ -365,10 +358,10 @@
       <svg class="corner-bloom bloom-in" style="width:52px; height:52px; bottom:-20px; right:-16px; transform-origin:center; transition-delay:.15s;"><use href="#bloom"/></svg>
       <div class="day">Sábado, 14 de novembro</div>
       <div class="time">Início às 15h</div>
-      <div class="place">Avenida Paraguaçu, 760</div>
+      <div class="place">Chácara do Irmão Renato</div>
       <div class="addr">Santo Estêvão — BA</div>
       <div class="event-links">
-        <a href="https://www.google.com/maps?q=-12.4344167,-39.2471667" target="_blank" rel="noopener">Como chegar</a>
+        <a href="https://www.google.com/maps?q=-12.4524698,-39.2379568" target="_blank" rel="noopener">Como chegar</a>
         <a id="addCalendar" href="#" target="_blank" rel="noopener">Adicionar ao calendário</a>
       </div>
     </div>
@@ -561,7 +554,7 @@
     const end = '20261114T180000';
     const text = encodeURIComponent('Casamento de Lucas & Janyne');
     const details = encodeURIComponent('Cerimônia de casamento de Lucas Maia e Janyne Ramos.');
-    const location = encodeURIComponent('Avenida Paraguaçu, 760, Santo Estêvão - BA');
+    const location = encodeURIComponent('Chácara do Irmão Renato, Santo Estêvão - BA');
     document.getElementById('addCalendar').href = `https://www.google.com/calendar/render?action=TEMPLATE&text=${text}&dates=${start}/${end}&details=${details}&location=${location}`;
   })();
 
